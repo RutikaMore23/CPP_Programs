@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int no;
+    cout<<"Enter a Number";
+    cin>>no;
+
+    if(no>0)
+    {
+        cout<<"Positive Number...";
+    }
+    else if(no<0)
+    {
+        cout<<"Negative Number";
+    }
+    else
+    {
+        cout<<"Nor Positive Nor Negative";
+    }
+
+
+    return 0;
+}
