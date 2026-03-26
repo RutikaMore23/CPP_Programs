@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   int r,v;
+
+   cout<<"Enter Radius:";
+   cin>>r;
+
+   v=(4/3)*3.14*r*r*r;
+   cout<<"Volume :"<<v;
+   return 0;
+
+}
